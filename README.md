@@ -1,1 +1,1 @@
-backend blogging website which stores,adds,deletes and displays user blogs.
+A React-based vocabulary app with Node.js backend and MongoDB database support.
