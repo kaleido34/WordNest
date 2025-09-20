@@ -1,7 +1,8 @@
 {
-    "functions": {
-      "api/keepAlive.js": {
-        "schedule": "0 */12 * * *" 
+    "crons": [
+      {
+        "path": "/api/keepAlive",
+        "schedule": "0 */12 * * *"
       }
-    }
+    ]
   }
