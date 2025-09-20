@@ -4,6 +4,8 @@ const mongoose = require('mongoose');
 const blogRoutes = require('./routes/blogRoutes');
 require('dotenv').config();
 
+//this is testing
+
 // express app
 const app = express();
 
