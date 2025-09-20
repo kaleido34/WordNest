@@ -1,0 +1,7 @@
+{
+    "functions": {
+      "api/keepAlive.js": {
+        "schedule": "0 */12 * * *" 
+      }
+    }
+  }
