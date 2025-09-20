@@ -11,7 +11,7 @@ const app = express();
 const dbURI =  process.env.MONGODB_URI;
 
 mongoose.connect(dbURI)
-  .then(result => app.listen(3000))
+  .then(result => console.log('Connected to MongoDB'))
   .catch(err => console.log(err));
 
 // register view engine
@@ -42,3 +42,5 @@ app.use('/blogs', blogRoutes);
 app.use((req, res) => {
   res.status(404).render('404', { title: '404' });
 });
+
+module.exports = app;
