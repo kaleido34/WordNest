@@ -2,9 +2,8 @@ const express = require('express');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
 const blogRoutes = require('./routes/blogRoutes');
+const { join } = require('lodash');
 require('dotenv').config();
-
-//this is testing
 
 // express app
 const app = express();
